@@ -1,0 +1,176 @@
+@media only screen and (max-width: 600px) {
+.term_container{
+    padding: 99px 24px 86px 24px;
+    gap: 16px;
+}
+.term_info{
+    gap: 16px;
+}
+.term_info_title{
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+.term_info_content{
+    font-size: 16px;
+    letter-spacing: 0.24px;
+}
+
+
+
+.error_section{
+    background-image: url(../img/mob_error_bg.png);
+}
+.mob_error_img {
+    display: block;
+}
+.desc_error_img {
+    display: none;
+}
+.error_button{
+    width: 327px;
+    font-size: 16px;
+}
+.error_container{
+    padding: 259px 24px 258px 24px;
+}
+
+.contact_container{
+    flex-direction: column-reverse;
+    padding: 99px 24px 32px 24px;
+    gap: 32px;
+}
+.contact_right{
+    width: auto;
+    gap: 32px;
+}
+.contact_left{
+    width: auto;
+    gap: 32px;
+}
+.contact_textarea{
+    width: 100%;
+    padding: 24px 24px 64px 24px;
+}
+.captcha_submit{
+    flex-direction: column;
+    gap: 24px;
+}
+.contact_title {
+    font-size: 24px;
+    letter-spacing: 0.36px;
+}
+.phone_label {
+    font-size: 16px;
+    letter-spacing: 1.6px;
+}
+.phone_number {
+    font-size: 16px;
+    letter-spacing: 0.32px;
+}
+.contact_info {
+    gap: 32px;
+}
+.contact-checkboxF>.contact-divF>label:before,
+.contact-checkboxF>.contact-divF>.label:before {
+    top: 0px;
+    left: 0px;
+}
+
+.contact-checkboxF input[type='checkbox']~label:after,
+.contact-checkboxF input[type='checkbox']~.label:after {
+    left: 0px;
+    top: 0px;
+}
+.contact_textbox{
+    padding: 16px 24px;
+}
+.ebg1{
+    display: none;
+}
+.ebg2{
+    display: none;
+}
+.ebg3{
+    display: none;
+}
+.ebg4{
+    display: none;
+}
+.faq_container{
+    padding-top: 98px;
+    padding-bottom: 32px;
+    gap: 32px;
+}
+.faq_msg_bar{
+    flex-direction: column;
+    gap: 24px;
+    max-width: 327px;
+}
+.faq_left{
+    max-width: 327px;
+}
+.faq_right{
+    max-width: 327px;
+}
+.faq_full{
+    font-size: 16px;
+}
+.faq_question_title{
+    font-size: 24px;
+}
+.faq_msg{
+    font-size: 16px;
+}
+.head_button{
+    padding: 0px 24px 32px 0px;
+    background-position: 20px 8px
+}
+.middle_button{
+    padding: 32px 24px 32px 0px;
+    background-position: left 20px center;
+}
+.faq_title{
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+.middle_button.accordion-button:not(.collapsed){
+    padding-bottom: 16px;
+}
+.head_button.accordion-button:not(.collapsed){
+    padding-bottom: 16px;
+}
+.faq_q_sub{
+    font-size: 16px;
+    letter-spacing: 0.24px;
+    margin-bottom: 32px;
+    margin-right: 24px;
+}
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1348px) {
+
+}
+
+@media only screen and (min-width: 1349px) and (max-width:1439px) {
+
+}
+
+@media only screen and (min-width: 1440px) and (max-width:1499px) {
+
+}
+
+@media only screen and (min-width: 1500px) and (max-width:1599px) {
+
+}
+
+@media only screen and (min-width: 1600px) and (max-width:1699px) {
+
+}
+
+@media only screen and (min-width: 1700px) and (max-width:1799px) {
+
+}
+
+@media only screen and (min-width: 1800px) and (max-width:1919px) {
+
+}

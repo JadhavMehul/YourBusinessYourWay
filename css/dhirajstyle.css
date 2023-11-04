@@ -1,0 +1,687 @@
+.acc_ont {
+    background: var(--nuetral-the-lightest-gray-200, #F8F8F8);
+}
+
+.hello_box {
+    max-width: 275px;
+}
+
+.hello {
+    color: var(--nuetral-black-600, #000);
+    font-family: "Albert Sans";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.my_obj_odd {
+    color: var(--blue-shades-800, #001AFF);
+    font-family: "Albert Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.my_obj {
+    color: var(--nuetral-dark-gray-500, #737373);
+    font-family: "Albert Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.upper_sec {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 521px;
+    margin-top: 229px;
+}
+
+.name_box {
+    display: flex;
+    align-items: flex-end;
+    gap: 32px;
+}
+
+.myy_acc {
+    display: flex;
+    align-items: flex-end;
+    gap: 32px;
+}
+
+.btn_save_changes {
+    display: flex;
+    padding: 17px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 56px;
+    background: var(--blue-shades-800, #001AFF);
+    color: var(--nuetral-white-100, #FFF);
+    font-family: "Albert Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+
+.mid_sec {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: auto;
+    margin-top: 112px;
+    width: 1070px;
+}
+
+.personal_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 100%;
+    max-width: 525px;
+    margin-bottom: 112px;
+
+}
+
+.common_titel {
+    color: var(--nuetral-black-600, #000);
+    font-family: "Albert Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    margin-bottom: 24px;
+}
+
+.full_namee {
+    color: var(--nuetral-black-600, #000);
+    font-family: "Albert Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.full_naamee {
+    color: var(--nuetral-black-600, #000);
+    font-family: "Albert Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.name_form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.inpi_boxx {
+    display: flex;
+    width: 100%;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--nuetral-light-gray-300, #EFEFEF);
+    color: var(--nuetral-gray-400, #AFAFAF);
+    font-family: "Albert Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.iinpi_boxx {
+    display: flex;
+    width: 100%;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--nuetral-light-gray-300, #EFEFEF);
+    color: var(--nuetral-gray-400, #AFAFAF);
+    font-family: "Albert Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.drop_ddon {
+    border-radius: 8px;
+    background-image: url(../img/dropdown\ icon.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-color: var(--nuetral-light-gray-300, #EFEFEF);
+    color: var(--nuetral-black-600, #000);
+    width: 100%;
+    font-family: "Albert Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    height: 72px;
+}
+
+.address_box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    width: 100%;
+    max-width: 525px;
+}
+
+.drop_down {
+    display: flex;
+    width: 525px;
+    padding: 24px;
+    align-items: center;
+    gap: 96px;
+    border-radius: 8px;
+    background: var(--nuetral-light-gray-300, #EFEFEF);
+}
+
+.innpi_boxx {
+    display: flex;
+    width: 100%;
+    width: 335px;
+    padding: 24px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--nuetral-light-gray-300, #EFEFEF);
+    color: var(--nuetral-gray-400, #AFAFAF);
+    font-family: "Albert Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.adress_pin {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+/* Login Page     */
+
+
+/* .loogin {
+    background: url(../img/login_bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    box-shadow: -5px 5px 56px 0px rgba(115, 115, 115, 0.08);
+    background-color: #FAFBFF;
+} */
+
+.welc {
+    color: var(--nuetral-black-600, #000);
+    font-family: "Albert Sans";
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.suub {
+    color: var(--nuetral-dark-gray-500, #737373);
+    font-family: Albert Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.3px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    background-color: #FAFBFF;
+}
+
+.left {
+    background: url(../img/login_bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: cover;
+    box-shadow: -5px 5px 56px 0px rgba(115, 115, 115, 0.08);
+    background-color: #FAFBFF;
+    width: 857px;
+}
+
+.left_frame {
+    width: 525px;
+    margin-left: auto;
+    margin-right: 92px;
+    margin-top: 497px;
+}
+.right{
+    background-color: #FAFBFF;
+
+}
+
+.right_frame {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 525px;
+    gap: 32px;
+    margin-left: 115px;
+    margin-top: 317px;
+    margin-bottom: 128px;
+}
+.loggin{
+    color: var(--nuetral-black-600, #000);
+font-family: "Albert Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.48px;
+margin-bottom: 24px;
+}
+.lable_forget{
+    display: flex;
+align-items: flex-start;
+gap: 272px;
+}
+.forget_pass{
+    color: var(--blue-shades-800, #001AFF);
+font-family:"Albert Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+text-underline-position: under;
+margin-bottom: 0px;
+}
+.chekk_box{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}
+.inpu_ico{
+    width: 32px;
+    height: 32px;
+    background-color: var(--nuetral-light-gray-300, #EFEFEF);
+
+}
+.btn_log_changes {
+    display: flex;
+    padding: 17px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 56px;
+    background: var(--blue-shades-800, #001AFF);
+    background-image: url(../img/login_arrow.png);
+    background-repeat: no-repeat;
+    color: var(--nuetral-white-100, #FFF);
+    font-family: "Albert Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+}
+.btn_local, .btn_local:hover {
+    border-radius: 56px;
+    background: var(--1-style-accent, #001AFF);
+    color: var(--1-style-white, #FFF);
+    font-family: 'Albert Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.36px;
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.signin{
+    color: var(--nuetral-dark-gray-500, #737373);
+    font-family: "Albert Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.sing_odd{
+    color: var(--blue-shades-800, #001AFF);
+    font-family: "Albert Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration-line: underline;
+    text-underline-position: under;
+
+}
+
+
+/* Register 1 */
+.left_frame_1{
+        width: 525px;
+        margin-left: auto;
+        margin-right: 92px;
+        margin-top: 444px;
+        margin-bottom: 310px;
+    
+}
+/* Register 2 */
+.r2_captcha{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.recaptchaa{
+    width: 100%;
+    max-width: 209px;
+}
+.right_frame_2 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 525px;
+    gap: 32px;
+    margin-left: 115px;
+    margin-top: 317px;
+    margin-bottom: 32px;
+}
+
+/* Order History */
+.od_histrory{
+    padding-bottom: 112px;
+    background: var(--nuetral-the-lightest-gray-200, #F8F8F8);
+}
+.od_box_1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 56px;
+    margin-top: 101px;
+    padding-bottom: 101px;
+    background: var(--blue-shades-100, #FAFBFF);
+}
+.od_box:nth-child(even){
+    background-color: #FAFBFF;
+}
+.od_box {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 56px;
+    padding-top: 101px;
+    padding-bottom: 101px;
+}
+.od_lft_title{
+    color: var(--nuetral-black-600, #000);
+font-family: "Albert Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.36px;
+}
+.od_lft_subtitle{
+    color: var(--nuetral-dark-gray-500, #737373);
+font-family: "Albert Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 130%;
+letter-spacing: 0.27px;
+}
+.items_box{
+    display: flex;
+align-items: flex-start;
+gap: 32px;
+width: 100%;
+max-width: 465px;
+}
+.content_title{
+    width: 100%;
+    max-width: 274px;
+}
+.order_box{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 149px;
+width: 125px;
+}
+.order_name{
+    color: var(--nuetral-dark-gray-500, #737373);
+    font-family: "Albert Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+.order_name_2{
+    color: var(--nuetral-black-600, #000);
+font-family:"Albert Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-bottom: 0px;
+
+}
+.content_box{
+    display: flex;
+align-items: flex-start;
+gap: 72px;
+}
+.upper_secc {
+    display: inline-flex;
+    align-items: flex-end;
+    gap: 521px;
+    margin-top: 229px;
+}
+
+
+/* Order complete */
+.oc_blue{
+    color: var(--blue-shades-800, #001AFF);
+font-family: "Albert Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.oc_title{
+    color: var(--nuetral-black-600, #000);
+    font-family: "Albert Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+.oc_subtitle{
+    color: var(--nuetral-dark-gray-500, #737373);
+    font-family: "Albert Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 26px */
+    letter-spacing: 0.3px;
+}
+.left_oc_box{
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+width: 100%;
+max-width: 525px;
+}
+.oc_box{
+    display: flex;
+    justify-content: center;
+    gap: 115px;
+    margin-top: 229px;
+    margin-bottom: 112px;
+}
+.order_sum{
+    color: var(--nuetral-black-600, #000);
+font-family:"Albert Sans";
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.48px;
+margin-bottom: 24px;
+}
+.rgt_oc_box{
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+}
+.order_sum_box {
+    display: flex;
+    justify-content: center;
+    gap: 41px;
+    width: 617px;
+}
+.order_sum_22 {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 41px;
+}
+.x1{
+    color: var(--nuetral-dark-gray-500, #737373);
+font-family: 'Albert Sans';
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.36px;
+margin-bottom: 0px;
+}
+.item_connnten{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 59px;
+
+}
+.digi_box{
+    width: 100%;
+    max-width: 274px;
+}
+.nineteen{
+    color: var(--nuetral-black-600, #000);
+font-family: "Albert Sans";
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.36px;
+margin-bottom: 0px;
+}
+
+.liene{
+    width: 100%;
+    background: #AFAFAF;
+    margin: 0px;
+}
+.sub_cont{
+    display: flex;
+    justify-content: space-between;
+}
+.subbb{
+    color: var(--nuetral-black-600, #000);
+    font-family: "Albert Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 26px */
+    letter-spacing: 0.3px;
+}
+.priie{
+    color: var(--nuetral-dark-gray-500, #737373);
+    font-family: "Albert Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+.sub_tootal{
+    width: 100%;
+}
+.order_ttitle{
+    color: var(--nuetral-black-600, #000);
+    font-family: "Albert Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+.total_amo{
+    color: var(--blue-shades-800, #001AFF);
+    font-family: 'Albert Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}
+.order_total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom_oc_box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+/* Order Incomplete0 */
+.left_oc_box_1 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 76px;
+    gap: 32px;
+    width: 100%;
+}
+.oc_title_2{
+    color: var(--nuetral-black-600, #000);
+    font-family: "Albert Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.48px;
+}

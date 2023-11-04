@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Your Way</title>
+
+    <!-- Style Sheets -->
+
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/m_style.css">
+    <link rel="stylesheet" href="./css/rahul_style.css">
+    <link rel="stylesheet" href="./css/rahul_responsive.css">
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="fixed-top">
+        <div class="header_top">
+            <div class="container desktop_header">
+                <div class="header_main_container">
+                    <div class="header_main_left">
+                        <div class="header_main_logo">
+                            <a href="./index.html">
+                                <img src="./img/header_logo.svg" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header_main_center">
+                        <a href="./index.html" class="header_link active">Home</a>
+                        <a href="./product_listing.html" class="header_link">Store</a>
+                        <a href="./about.html" class="header_link">About us</a>
+                        <a href="" class="header_link">Contact Us</a>
+                        <a href="" class="header_link">FAQs</a>
+                    </div>
+                    <div class="header_main_right">
+                        <div class="nav_ink">
+                            <div class="dropdown">
+                                <a class="btn cart_drop_btn dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <!-- <img src="./img/cart_basket.svg" alt="" class="img-fluid"> -->
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33"
+                                        fill="none">
+                                        <path
+                                            d="M12.0013 27.1666C12.7377 27.1666 13.3346 27.7635 13.3346 28.4999C13.3346 29.2363 12.7377 29.8333 12.0013 29.8333C11.2649 29.8333 10.668 29.2363 10.668 28.4999C10.668 27.7635 11.2649 27.1666 12.0013 27.1666ZM21.3346 27.1666C22.071 27.1666 22.668 27.7635 22.668 28.4999C22.668 29.2363 22.071 29.8333 21.3346 29.8333C20.5982 29.8333 20.0013 29.2363 20.0013 28.4999C20.0013 27.7635 20.5982 27.1666 21.3346 27.1666ZM4.66135 4.00796L4.80138 4.1L7.07838 5.80774C7.46828 6.10017 7.76836 6.49208 7.94955 6.93884L8.0301 7.16659H25.1576C26.6947 7.16659 27.8986 8.45769 27.8211 9.96611L27.8037 10.164L27.1944 15.0379C26.816 18.0653 24.4354 20.4356 21.435 20.8227L21.1329 20.8547L11.3827 21.6673L11.7287 23.1667H23.3348C24.071 23.1667 24.6681 23.7637 24.6681 24.5C24.6681 25.1837 24.1533 25.7474 23.4902 25.8244L23.3348 25.8334H11.7287C10.56 25.8334 9.53689 25.0741 9.18778 23.9761L9.13035 23.7663L5.47838 7.94108L3.20138 6.23333C2.61227 5.7915 2.49289 4.95577 2.93471 4.36666C3.30857 3.86819 3.96445 3.70602 4.51431 3.93559L4.66135 4.00796ZM25.1576 9.83325H8.65179L10.7768 19.0418L20.9114 18.1973C22.7965 18.0402 24.3137 16.5842 24.5484 14.7073L25.1576 9.83325Z" />
+                                    </svg>
+                                </a>
+
+                                <ul class="cart_menu dropdown-menu">
+                                    <div class="cart_dropdown_header">
+                                        <h1 class="cart_drop_title">Shopping cart</h1>
+                                        <button class="btn cut_cart">
+                                            <img src="./img/X.svg" alt="" class="img-fluid">
+                                        </button>
+                                    </div>
+                                    <div class="cart_divider"></div>
+                                    <div class="cart_card">
+                                        <div class="cart_card_left">
+                                            <img src="./img/cart_img.png" alt="" class="img-fluid cart_img">
+                                            <div class="cart_card_info">
+                                                <h4 class="cart_card_title">A.I in digital marketing</h4>
+                                                <p class="cart_card_subtitle">
+                                                    Discover educational videos, author interviews, and insightful
+                                                    lectures that will spark...
+                                                </p>
+                                                <div class="cart_inc_dec">
+                                                    <button class="btn btn_increment">
+                                                        <img src="./img/decrement.png" alt="" class="img-fluid">
+                                                    </button>
+                                                    <input type="number" min="1" value="1" max="10"
+                                                        class="form-control cart_num">
+                                                    <button class="btn btn_decrement">
+                                                        <img src="./img/increment.png" alt="" class="img-fluid">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="cart_card_info2">
+                                                <button class="btn cart_close p-0">
+                                                    <img src="./img/X_red.png" alt="" class="img-fluid">
+                                                </button>
+                                                <p class="cart_total">
+                                                    €19.99
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart_divider"></div>
+                                    <div class="cart_card">
+                                        <div class="cart_card_left">
+                                            <img src="./img/cart_img.png" alt="" class="img-fluid cart_img">
+                                            <div class="cart_card_info">
+                                                <h4 class="cart_card_title">A.I in digital marketing</h4>
+                                                <p class="cart_card_subtitle">
+                                                    Discover educational videos, author interviews, and insightful
+                                                    lectures that will spark...
+                                                </p>
+                                                <div class="cart_inc_dec">
+                                                    <button class="btn btn_increment">
+                                                        <img src="./img/decrement.png" alt="" class="img-fluid">
+                                                    </button>
+                                                    <input type="number" min="1" value="1" max="10"
+                                                        class="form-control cart_num">
+                                                    <button class="btn btn_decrement">
+                                                        <img src="./img/increment.png" alt="" class="img-fluid">
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="cart_card_info2">
+                                                <button class="btn cart_close p-0">
+                                                    <img src="./img/X_red.png" alt="" class="img-fluid">
+                                                </button>
+                                                <p class="cart_total">
+                                                    €19.99
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="cart_divider"></div>
+                                    <div class="cart_dropdown_header">
+                                        <p class="cart_bottom_title">Order total</p>
+                                        <p class="cart_all_total">$100.00</p>
+                                    </div>
+                                    <button class="btn cart_btn">
+                                        Checkout
+                                        <img src="./img/arrow_go.svg" alt="" class="img-fluid">
+                                    </button>
+                                </ul>
+                            </div>
+                            <!-- <a href="">
+                                <img src="./img/cart_basket.svg" alt="" class="img-fluid">
+                            </a> -->
+                            <a href="">
+                                <img src="./img/account_icon.svg" alt="" class="img-fluid">
+                            </a>
+                            <div class="dropdown">
+                                <a class="btn header_dropdown dropdown-toggle" href="#" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    EU $
+                                </a>
+
+                                <ul class="dropdown-menu dropdown_menu">
+                                    <li><a class="dropdown-item" href="#">USD $</a></li>
+                                    <li><a class="dropdown-item" href="#">GBP $</a></li>
+                                    <li><a class="dropdown-item" href="#">RUB $</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container mobile_header">
+                <div class="header_mobo_main">
+                    <div class="header_main_mobo_left">
+                        <div class="hamburger_menu">
+                            <img src="./img/hamburger_menu.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="header_main_mobo_logo">
+                        <img src="./img/header_logo_mobo.svg" alt="" class="img-fluid">
+                    </div>
+                    <div class="header_main_mobo_right">
+                        <div class="hamburger_cart">
+                            <img src="./img/cart_mobo.svg" alt="" class="img-fluid">
+                        </div>
+                        <div class="hamburger_menu_close" style="display: none;">
+                            <img src="./img/hamburger_x.svg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_mobo_main_slide" style="display: none;">
+            <div class="mobile_header_white">
+                <button class="btn header_mobo_btn active">Home</button>
+                <button class="btn header_mobo_btn">Store</button>
+                <button class="btn header_mobo_btn">About us</button>
+                <button class="btn header_mobo_btn">Contact us</button>
+                <button class="btn header_mobo_btn">FAQs</button>
+                <button class="btn header_mobo_btn">Account</button>
+                <div class="header_mobo_divider"></div>
+                <div class="mobile_header_currency">
+                    <button class="btn header_mobo_dropdown_btn d-flex mx-auto align-items-center"
+                        onclick="mobo_currency()">
+                        EU $
+                        <img src="./img/arows.svg" alt="" class="img-fluid">
+                    </button>
+                    <div class="mobo_currency_drop d-none" id="mobo_currency_drop">
+                        <button class="btn btn_currency_mobo">GBP $</button>
+                        <button class="btn btn_currency_mobo">USD $</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <section class="term_section">
+        <div class="container term_container">
+            <div class="term_info">
+                <h4 class="term_info_title">Terms and Conditions</h4>
+                <p class="term_info_content">These Terms and Conditions ("Agreement") are an agreement between [Your
+                    Company Name] ("Website
+                    Operator," "we," "us," or "our") and you ("User," "you," or "your"). This Agreement sets forth the
+                    general terms and conditions of your use of the [Website URL] website and any of its products or
+                    services (collectively, "Website" or "Services").</p>
+            </div>
+            <div class="term_info">
+                <h4 class="term_info_title">Privacy</h4>
+                <p class="term_info_content">Your use of the Website is also governed by our Privacy Policy, which can
+                    be found at [Link to Privacy Policy]. Your agreement to and compliance with the Privacy Policy are
+                    hereby incorporated into this Agreement.</p>
+            </div>
+            <div class="term_info">
+                <h4 class="term_info_title">Intellectual Property</h4>
+                <p class="term_info_content">The Website and its original content, features, and functionality are owned
+                    by [Your Company Name] and are protected by international copyright, trademark, patent, trade
+                    secret, and other intellectual property or proprietary rights laws.</p>
+            </div>
+            <div class="term_info">
+                <h4 class="term_info_title">Termination</h4>
+                <p class="term_info_content">We reserve the right to terminate your access to the Website, without any
+                    advance notice.</p>
+            </div>
+            <div class="term_info">
+                <h4 class="term_info_title">Links to Other Websites</h4>
+                <p class="term_info_content">Our Website may contain links to third-party websites. These links are
+                    provided solely as a convenience to you. We have no control over the content of these websites or
+                    their policies. We do not endorse or accept any responsibility for the content or use of third-party
+                    websites.</p>
+            </div>
+            <div class="term_info">
+                <h4 class="term_info_title">Governing Law</h4>
+                <p class="term_info_content">This Agreement is governed by and construed in accordance with the laws of
+                    [Your Country/State].</p>
+            </div>
+            <div class="term_info">
+                <h4 class="term_info_title">Changes to This Agreement</h4>
+                <p class="term_info_content">We reserve the right to modify this Agreement at any time. You agree to
+                    review this Agreement periodically to stay aware of any changes. Your continued use of the Website
+                    after any modifications indicates your acceptance of the revised terms.</p>
+            </div>
+            <div class="term_info">
+                <h4 class="term_info_title">Contact Information</h4>
+                <p class="term_info_content">By using the Website or purchasing products or services through the
+                    Website, you signify your acceptance of these Terms and Conditions. If you do not agree to these
+                    Terms and Conditions, please do not use the Website.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_frame">
+                <div class="footer_element">
+                    <div class="footer_logo">
+                        <img src="./img/footer_logo_mobo.svg" alt="" class="img-fluid d-block d-lg-none d-md-none">
+                        <img src="./img/footer_logo.svg" alt="" class="img-fluid d-none d-lg-block d-md-block">
+                    </div>
+                    <div class="">
+                        <div class="footer_info">
+                            <img src="./img/phone.svg" alt="" class="img-fluid">
+                            <p class="footer_info_details">+44 7700 123456</p>
+                        </div>
+                        <div class="footer_info">
+                            <img src="./img/email.svg" alt="" class="img-fluid">
+                            <p class="footer_info_details">info@sharpedgesolutions.com</p>
+                        </div>
+                        <div class="footer_info">
+                            <img src="./img/location.svg" alt="" class="img-fluid">
+                            <p class="footer_info_details">123 London Street, London, AB1 2CD</p>
+                        </div>
+                    </div>
+                    <img src="./img/Mastercard.png" alt="" class="img-fluid">
+                </div>
+                <div class="footer_element2">
+                    <h4 class="footer_element_title">Navigation</h4>
+                    <div class="row">
+                        <div class="col-md-4 col-4">
+                            <a href="./index.html" class="footer_links">home</a>
+                        </div>
+                        <div class="col-md-8 col-8">
+                            <a href="./index.html" class="footer_links">login</a>
+                        </div>
+                        <div class="col-md-4 col-4">
+                            <a href="./index.html" class="footer_links">store</a>
+                        </div>
+                        <div class="col-md-8 col-8">
+                            <a href="./index.html" class="footer_links">register</a>
+                        </div>
+                        <div class="col-md-4 col-4">
+                            <a href="./index.html" class="footer_links">about us</a>
+                        </div>
+                        <div class="col-md-8 col-8">
+                            <a href="./index.html" class="footer_links">privacy policy</a>
+                        </div>
+                        <div class="col-md-4 col-4">
+                            <a href="./index.html" class="footer_links">contact us</a>
+                        </div>
+                        <div class="col-md-8 col-8">
+                            <a href="./index.html" class="footer_links">terms and conditions</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_element2">
+                    <h4 class="footer_element_title">Want to know more?</h4>
+                    <p class="footer_subtitle">
+                        Share your email with us to stay informed and learn more.
+                    </p>
+                    <div class="footer_input">
+                        <input type="email" class="form-control fut_inp" placeholder="Type here...">
+                        <button class="btn btn_footer">Send</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_divider"></div>
+            <p class="footer_copyrights">
+                © 2023 Ecommerce. All Rights Reserved
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="./dist/js/jquery.min.js"></script>
+    <script src="./dist/js/owl.carousel.js"></script>
+    <!-- <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+    </script>
+
+
+    <script>
+        $(document).ready(function () {
+            $(".hamburger_menu").click(function () {
+                $(".header_mobo_main_slide").fadeIn("slow");
+                // $(".hamburger_menu").css("opacity", "0");
+                // $(".hamburger_menu_close").css("opacity", "1");
+                $(".hamburger_cart").fadeOut("slow");
+                $(".hamburger_menu_close").fadeIn("slow");
+                $(".fixed-top").css("background", "#F8F8F8");
+            });
+            $(".hamburger_menu_close").click(function () {
+                $(".header_mobo_main_slide").fadeOut("slow");
+                // $(".hamburger_menu").css("opacity", "1");
+                // $(".hamburger_menu_close").css("opacity", "0");
+                $(".hamburger_cart").fadeIn("slow");
+                $(".hamburger_menu_close").fadeOut("slow");
+                $(".fixed-top").css("background", "transparent");
+            });
+        });
+
+
+        function mobo_currency() {
+            var abc = document.getElementById("mobo_currency_drop");
+            if (abc.classList.contains("d-none")) {
+                abc.classList.remove("d-none");
+            } else {
+                abc.classList.add("d-none");
+            }
+        }
+    </script>
+
+
+</body>
+
+</html>
